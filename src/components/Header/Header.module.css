@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1200px;
+    height: 50px;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background: linear-gradient(175deg, rgba(75, 40, 141, 1) 25%, rgba(119, 205, 233, 1) 70%, rgba(96, 145, 233, 1) 80%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    margin-right: 20px;
+}

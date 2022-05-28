@@ -1,0 +1,21 @@
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: aliceblue;
+
+    background: linear-gradient(175deg, rgba(75, 40, 141, 1) 0%, rgba(119, 205, 233, 1) 40%, rgba(96, 145, 233, 1) 100%);
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoList {
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.currentTemp {
+    display: flex;
+    align-items: center;
+}
