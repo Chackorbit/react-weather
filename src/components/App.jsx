@@ -8,15 +8,17 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const App = () => {
   return (
-    <div className={s.container}>
-      <Header />
+    <>
+      <div className={s.container}>
+        <Header />
 
-      <Routes>
-        <Route axact path="/" element={<HomePage />} />
-        <Route axact path=":id" element={<DetailsInfoPage />} />
+        <Routes>
+          <Route axact path="/" element={<HomePage />} />
+          <Route axact path=":id" element={<DetailsInfoPage />} />
 
-        <Route axact path="/add" element={<AddLocationPage />} />
-      </Routes>
-    </div>
+          <Route axact path="/add" element={<AddLocationPage />} />
+        </Routes>
+      </div>
+    </>
   );
 };

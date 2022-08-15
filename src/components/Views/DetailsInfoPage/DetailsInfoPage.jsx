@@ -50,7 +50,9 @@ export default function DetailsInfoPage() {
         </ul>
 
         <h2>7 day weather</h2>
-        <SevenDaysWeather detailsInfoWeather={detailsInfoWeather} />
+        <div>
+          <SevenDaysWeather detailsInfoWeather={detailsInfoWeather} />
+        </div>
       </div>
     )
   );
